@@ -17,13 +17,23 @@
             </df>
             <in>pointers_address.c</in>
           </df>
+          <df name="Pointers_Arrays">
+            <in>strlen.c</in>
+          </df>
           <df name="Pointers_FunctionArguments">
             <in>main.c</in>
           </df>
+          <in>Overview</in>
           <in>Pointers and Arrays</in>
         </df>
+        <df name="Structures">
+          <in>Overview</in>
+          <in>arrays.c</in>
+          <in>basics.c</in>
+        </df>
+        <in>directory</in>
       </df>
-      <df name="cs-foundations">
+      <df name="ComputerScience-Foundations">
         <in>list-data-model.c</in>
         <in>selectionsort.c</in>
         <in>tree-data-model.c</in>
@@ -977,6 +987,11 @@
             tool="3"
             flavor2="0">
       </item>
+      <item path="C-Programming/Pointers_Arrays/Overview"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Pointers_Arrays/Pointers and Arrays"
             ex="false"
             tool="3"
@@ -1012,7 +1027,35 @@
             tool="0"
             flavor2="0">
       </item>
+      <item path="C-Programming/Pointers_Arrays/Pointers_Arrays/strlen.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Pointers_Arrays/Pointers_FunctionArguments/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/Overview" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/arrays.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/basics.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="C-Programming/directory" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ComputerScience-Foundations/list-data-model.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="ComputerScience-Foundations/selectionsort.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="ComputerScience-Foundations/tree-data-model.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -3131,12 +3174,6 @@
             ex="false"
             tool="0"
             flavor2="0">
-      </item>
-      <item path="cs-foundations/list-data-model.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="cs-foundations/selectionsort.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="cs-foundations/tree-data-model.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="list/stacks.c" ex="false" tool="0" flavor2="0">
       </item>

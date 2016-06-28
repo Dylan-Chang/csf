@@ -42,13 +42,23 @@
             </df>
             <in>pointers_address.c</in>
           </df>
+          <df name="Pointers_Arrays">
+            <in>strlen.c</in>
+          </df>
           <df name="Pointers_FunctionArguments">
             <in>main.c</in>
           </df>
+          <in>Overview</in>
           <in>Pointers and Arrays</in>
         </df>
+        <df name="Structures">
+          <in>Overview</in>
+          <in>arrays.c</in>
+          <in>basics.c</in>
+        </df>
+        <in>directory</in>
       </df>
-      <df name="cs-foundations">
+      <df name="ComputerScience-Foundations">
         <in>list-data-model.c</in>
         <in>selectionsort.c</in>
         <in>tree-data-model.c</in>
