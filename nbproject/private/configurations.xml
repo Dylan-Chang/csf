@@ -2,6 +2,52 @@
 <configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
+      <df name="C-Programming">
+        <df name="Functions-ProgramStructure">
+          <df name="10_Recursion">
+          </df>
+          <df name="11_The_C_Preprocessor">
+          </df>
+          <df name="1_Basics_of_Functions">
+            <in>4-1.c</in>
+          </df>
+          <df name="2_Functions_Returning_Non-integers">
+            <in>_getline.c</in>
+            <in>atof.c</in>
+            <in>main.c</in>
+          </df>
+          <df name="3_External_Variables">
+            <in>reverse_polish_calculator.c</in>
+          </df>
+          <df name="4_Scope_Rules">
+          </df>
+          <df name="6_Static_Variables">
+          </df>
+          <df name="7_Register_Variables">
+          </df>
+          <df name="8_Block_Structure">
+          </df>
+          <df name="9_Initialization">
+          </df>
+          <in>HeaderFiles</in>
+        </df>
+        <df name="Pointers_Arrays">
+          <df name="Pointers_Address">
+            <df name="extension">
+              <in>getch.c</in>
+              <in>getch.h</in>
+              <in>getint.c</in>
+              <in>getint.h</in>
+              <in>main.c</in>
+            </df>
+            <in>pointers_address.c</in>
+          </df>
+          <df name="Pointers_FunctionArguments">
+            <in>main.c</in>
+          </df>
+          <in>Pointers and Arrays</in>
+        </df>
+      </df>
       <df name="cs-foundations">
         <in>list-data-model.c</in>
         <in>selectionsort.c</in>
@@ -12,27 +58,6 @@
       </df>
       <df name="shell">
         <df name="chapter-11">
-        </df>
-      </df>
-      <df name="The-C-Programming-Language">
-        <df name="Functions">
-          <df name="3_External_Variables">
-            <in>reverse_polish_calculator.c</in>
-          </df>
-          <df name="4.1">
-            <in>4-1.c</in>
-          </df>
-          <df name="4.2">
-            <in>_getline.c</in>
-            <in>atof.c</in>
-            <in>main.c</in>
-          </df>
-          <df name="4_Scope_Rules">
-          </df>
-          <df name="6_Static_Variables">
-          </df>
-          <df name="7_Register_Variables">
-          </df>
         </df>
       </df>
       <df name="Unix">
@@ -398,6 +423,7 @@
             <in>readable_listen.c</in>
             <in>readable_v4.c</in>
             <in>readable_v6.c</in>
+            <in>script.2</in>
             <in>udpcli01.c</in>
             <in>unpicmpd.h</in>
           </df>
@@ -574,6 +600,7 @@
             <in>loop.c</in>
             <in>main.c</in>
             <in>mysdr.h</in>
+            <in>script.2</in>
           </df>
           <df name="names">
             <in>daytimetcpcli.c</in>
@@ -669,6 +696,8 @@
             <in>dg_cli.c</in>
             <in>dg_echo.c</in>
             <in>dg_send_recv.c</in>
+            <in>rtt.out.kumba.2</in>
+            <in>rtt.out.vangogh.2</in>
             <in>udpcli01.c</in>
             <in>unprtt.h</in>
           </df>
@@ -751,6 +780,7 @@
           <df name="sigio">
             <in>dgcli01.c</in>
             <in>dgecho01.c</in>
+            <in>script.2</in>
             <in>udpcli01.c</in>
             <in>udpserv01.c</in>
           </df>
@@ -859,6 +889,7 @@
             <in>tsnprintf.c</in>
           </df>
           <df name="threads">
+            <in>doit.2</in>
             <in>example01.c</in>
             <in>example02.c</in>
             <in>example03.c</in>

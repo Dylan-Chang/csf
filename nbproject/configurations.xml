@@ -2,6 +2,27 @@
 <configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
+      <df name="C-Programming">
+        <df name="Functions-ProgramStructure">
+          <in>HeaderFiles</in>
+        </df>
+        <df name="Pointers_Arrays">
+          <df name="Pointers_Address">
+            <df name="extension">
+              <in>getch.c</in>
+              <in>getch.h</in>
+              <in>getint.c</in>
+              <in>getint.h</in>
+              <in>main.c</in>
+            </df>
+            <in>pointers_address.c</in>
+          </df>
+          <df name="Pointers_FunctionArguments">
+            <in>main.c</in>
+          </df>
+          <in>Pointers and Arrays</in>
+        </df>
+      </df>
       <df name="cs-foundations">
         <in>list-data-model.c</in>
         <in>selectionsort.c</in>
@@ -9,18 +30,6 @@
       </df>
       <df name="list">
         <in>stacks.c</in>
-      </df>
-      <df name="The-C-Programming-Language">
-        <df name="Functions">
-          <df name="3_External_Variables">
-            <in>reverse_polish_calculator.c</in>
-          </df>
-          <df name="4.2">
-            <in>_getline.c</in>
-            <in>atof.c</in>
-            <in>main.c</in>
-          </df>
-        </df>
       </df>
       <df name="Unix">
         <df name="apue">
@@ -963,22 +972,47 @@
           <preBuildCommand></preBuildCommand>
         </preBuild>
       </makefileType>
-      <item path="The-C-Programming-Language/Functions/3_External_Variables/reverse_polish_calculator.c"
+      <item path="C-Programming/Functions-ProgramStructure/HeaderFiles"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/Pointers and Arrays"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/Pointers_Address/extension/getch.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="The-C-Programming-Language/Functions/4.2/_getline.c"
+      <item path="C-Programming/Pointers_Arrays/Pointers_Address/extension/getch.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/Pointers_Address/extension/getint.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="The-C-Programming-Language/Functions/4.2/atof.c"
+      <item path="C-Programming/Pointers_Arrays/Pointers_Address/extension/getint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/Pointers_Address/extension/main.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="The-C-Programming-Language/Functions/4.2/main.c"
+      <item path="C-Programming/Pointers_Arrays/Pointers_Address/pointers_address.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/Pointers_FunctionArguments/main.c"
             ex="false"
             tool="0"
             flavor2="0">

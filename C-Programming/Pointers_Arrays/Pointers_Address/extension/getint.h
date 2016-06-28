@@ -1,0 +1,2 @@
+
+int getint(int *pn);
