@@ -59,6 +59,9 @@
         <in>directory</in>
       </df>
       <df name="ComputerScience-Foundations">
+        <df name="list">
+          <in>stacks.c</in>
+        </df>
         <in>list-data-model.c</in>
         <in>selectionsort.c</in>
         <in>tree-data-model.c</in>
@@ -985,6 +988,7 @@
             <in>unixstrserv02.c</in>
           </df>
         </df>
+        <in>myls.c</in>
       </df>
       <in>myls.c</in>
     </df>
