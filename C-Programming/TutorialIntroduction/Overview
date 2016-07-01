@@ -1,0 +1,30 @@
+
+Let us begin with a quick introduction in C. Our aim is to show the essential elements of the
+language in real programs, but without getting bogged down in details, rules, and exceptions.
+At this point, we are not trying to be complete or even precise (save that the examples are
+meant to be correct). We want to get you as quickly as possible to the point where you can
+write useful programs, and to do that we have to concentrate on the basics: variables and
+constants, arithmetic, control flow, functions, and the rudiments of input and output. We are
+intentionally leaving out of this chapter features of C that are important for writing bigger
+programs. These include pointers, structures, most of C's rich set of operators, several controlflow
+statements, and the standard library. 
+
+让我们在C.我们的目标快速介绍开始是显示的基本要素
+语言在实际程序，但没有细节，规则和例外陷入困境。
+在这一点上，我们是不是要完整，甚至精确（保存的例子
+意思是正确的）。我们希望尽快得到你的地步，你可以
+写有用的程序，要做到这一点，我们必须把注意力集中在基础知识：变量和
+常数，算术运算，控制流，函数以及输入和输出的雏形。 我们是
+故意留下的是重要的书写更大的C本章出功能
+程式。其中包括三分球，结构，大多数C的运算符丰富，有几个controlflow
+语句和标准库。
+
+让我们首先简单介绍c。我们的目标是展示的基本要素
+语言在真实的项目,但是没有详细陷入困境,规则,和异常。
+在这一点上,我们不是试图完成甚至精确(保存的例子
+的意思是正确的)。我们想让你尽快,你可以
+编写有用的程序,要做到这一点,我们必须专注于基础:变量和
+常量、运算、控制流、函数和输入和输出的基础。我们是
+故意留下的这一章重要的C编写大的特性
+项目。这些包括指针、结构,大多数C组丰富的运营商,几个控制流
+语句,和标准库。
