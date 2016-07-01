@@ -3,6 +3,8 @@
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
       <df name="C-Programming">
+        <df name="ControlFlow">
+        </df>
         <df name="Functions-ProgramStructure">
           <df name="10_Recursion">
           </df>
@@ -31,7 +33,13 @@
           </df>
           <in>HeaderFiles</in>
         </df>
+        <df name="Input_Output">
+        </df>
         <df name="Pointers_Arrays">
+          <df name="AddressArithmetic">
+            <in>alloc.c</in>
+            <in>strcpy.c</in>
+          </df>
           <df name="Pointers_Address">
             <df name="extension">
               <in>getch.c</in>
@@ -48,6 +56,9 @@
           <df name="Pointers_FunctionArguments">
             <in>main.c</in>
           </df>
+          <df name="PointersPointers">
+            <in>output.c</in>
+          </df>
           <in>Overview</in>
           <in>Pointers and Arrays</in>
         </df>
@@ -55,6 +66,14 @@
           <in>Overview</in>
           <in>arrays.c</in>
           <in>basics.c</in>
+        </df>
+        <df name="TutorialIntroduction">
+          <df name="answer">
+          </df>
+        </df>
+        <df name="Types_Operators_Expressions">
+          <df name="answer">
+          </df>
         </df>
         <in>directory</in>
       </df>

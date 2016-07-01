@@ -7,6 +7,10 @@
           <in>HeaderFiles</in>
         </df>
         <df name="Pointers_Arrays">
+          <df name="AddressArithmetic">
+            <in>alloc.c</in>
+            <in>strcpy.c</in>
+          </df>
           <df name="Pointers_Address">
             <df name="extension">
               <in>getch.c</in>
@@ -22,6 +26,9 @@
           </df>
           <df name="Pointers_FunctionArguments">
             <in>main.c</in>
+          </df>
+          <df name="PointersPointers">
+            <in>output.c</in>
           </df>
           <in>Overview</in>
           <in>Pointers and Arrays</in>
@@ -987,6 +994,16 @@
             tool="3"
             flavor2="0">
       </item>
+      <item path="C-Programming/Pointers_Arrays/AddressArithmetic/alloc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/AddressArithmetic/strcpy.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Pointers_Arrays/Overview"
             ex="false"
             tool="3"
@@ -995,6 +1012,11 @@
       <item path="C-Programming/Pointers_Arrays/Pointers and Arrays"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/PointersPointers/output.c"
+            ex="false"
+            tool="0"
             flavor2="0">
       </item>
       <item path="C-Programming/Pointers_Arrays/Pointers_Address/extension/getch.c"
