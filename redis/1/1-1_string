@@ -1,0 +1,15 @@
+代码清单1-1 SET、GET和DEL的使用示例
+
+$ redis-cli                                 # 启动redis-cli 客户端
+redis 127.0.0.1:6379> set hello world       # 将键 hello 的值设置为 world 。
+OK                                          # SET 命令在执行成功时返回 OK ，Python 客户端会将这个 OK 转换成 True
+redis 127.0.0.1:6379> get hello             # 获取储存在键 hello 中的值。
+"world"                                     # 键的值仍然是 world ，跟我们刚才设置的一样。
+redis 127.0.0.1:6379> del hello             # 删除这个键值对。
+(integer) 1                                 # 在对值进行删除的时候，DEL 命令将返回被成功删除的值的数量。
+redis 127.0.0.1:6379> get hello             # 因为键的值已经不存在，所以尝试获取键的值将得到一个 nil ，
+(nil)                                       # Python 客户端会将这个 nil 转换成 None。
+redis 127.0.0.1:6379>
+
+
+

@@ -11,9 +11,6 @@
           </df>
           <df name="11_The_C_Preprocessor">
           </df>
-          <df name="1_Basics_of_Functions">
-            <in>4-1.c</in>
-          </df>
           <df name="2_Functions_Returning_Non-integers">
             <in>_getline.c</in>
             <in>atof.c</in>
@@ -32,6 +29,15 @@
           </df>
           <df name="9_Initialization">
           </df>
+          <df name="answer">
+            <in>4-1.c</in>
+          </df>
+          <df name="BasicsFunctions">
+            <in>4-1.c</in>
+          </df>
+          <df name="extension">
+            <in>4-1.c</in>
+          </df>
           <in>HeaderFiles</in>
         </df>
         <df name="Input_Output">
@@ -40,7 +46,16 @@
         <df name="Pointers_Arrays">
           <df name="AddressArithmetic">
             <in>alloc.c</in>
+            <in>note</in>
             <in>strcpy.c</in>
+            <in>strlen.c</in>
+          </df>
+          <df name="CharacterPointers_Functions">
+            <in>strcmp.c</in>
+            <in>strcpy.c</in>
+          </df>
+          <df name="PointerArrays_PointersToPointers">
+            <in>sort.c</in>
           </df>
           <df name="Pointers_Address">
             <df name="extension">
@@ -50,9 +65,11 @@
               <in>getint.h</in>
               <in>main.c</in>
             </df>
+            <in>note</in>
             <in>pointers_address.c</in>
           </df>
           <df name="Pointers_Arrays">
+            <in>main.c</in>
             <in>strlen.c</in>
           </df>
           <df name="Pointers_FunctionArguments">
@@ -71,6 +88,8 @@
         </df>
         <df name="TutorialIntroduction">
           <df name="answer">
+            <in>1-1.c</in>
+            <in>1-2.c</in>
           </df>
           <in>Overview</in>
         </df>
@@ -94,6 +113,13 @@
       </df>
       <df name="list">
         <in>stacks.c</in>
+      </df>
+      <df name="redis">
+        <df name="1">
+          <in>1-3_set</in>
+          <in>1-4_hash</in>
+          <in>1-5_zset</in>
+        </df>
       </df>
       <df name="shell">
         <df name="chapter-11">

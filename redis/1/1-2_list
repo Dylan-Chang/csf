@@ -1,0 +1,20 @@
+代码清单1-2 RPUSH、LRANGE、LINDEX和LPOP的使用示例
+redis 127.0.0.1:6379> rpush list-key item   # 在向列表推入新元素之后，该命令会返回列表的当前长度。
+(integer) 1                                 #
+redis 127.0.0.1:6379> rpush list-key item2  #
+(integer) 2                                 #
+redis 127.0.0.1:6379> rpush list-key item   #
+(integer) 3                                 #
+redis 127.0.0.1:6379> lrange list-key 0 -1  # 使用0为范围的起始索引，-1为范围的结束索引，
+1) "item"                                   # 可以取出列表包含的所有元素。
+2) "item2"                                  #
+3) "item"                                   #
+redis 127.0.0.1:6379> lindex list-key 1     # 使用LINDEX可以从列表里面取出单个元素。
+"item2"                                     #
+redis 127.0.0.1:6379> lpop list-key         # 从列表里面弹出一个元素，被弹出的元素不再存在于列表。
+"item"                                      #
+redis 127.0.0.1:6379> lrange list-key 0 -1  #
+1) "item2"                                  #
+2) "item"                                   #
+redis 127.0.0.1:6379>
+

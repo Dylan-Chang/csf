@@ -7,6 +7,12 @@
           <in>Overview</in>
         </df>
         <df name="Functions-ProgramStructure">
+          <df name="answer">
+            <in>4-1.c</in>
+          </df>
+          <df name="extension">
+            <in>4-1.c</in>
+          </df>
           <in>HeaderFiles</in>
         </df>
         <df name="Input_Output">
@@ -15,7 +21,16 @@
         <df name="Pointers_Arrays">
           <df name="AddressArithmetic">
             <in>alloc.c</in>
+            <in>note</in>
             <in>strcpy.c</in>
+            <in>strlen.c</in>
+          </df>
+          <df name="CharacterPointers_Functions">
+            <in>strcmp.c</in>
+            <in>strcpy.c</in>
+          </df>
+          <df name="PointerArrays_PointersToPointers">
+            <in>sort.c</in>
           </df>
           <df name="Pointers_Address">
             <df name="extension">
@@ -25,9 +40,11 @@
               <in>getint.h</in>
               <in>main.c</in>
             </df>
+            <in>note</in>
             <in>pointers_address.c</in>
           </df>
           <df name="Pointers_Arrays">
+            <in>main.c</in>
             <in>strlen.c</in>
           </df>
           <df name="Pointers_FunctionArguments">
@@ -45,6 +62,10 @@
           <in>basics.c</in>
         </df>
         <df name="TutorialIntroduction">
+          <df name="answer">
+            <in>1-1.c</in>
+            <in>1-2.c</in>
+          </df>
           <in>Overview</in>
         </df>
         <df name="Types_Operators_Expressions">
@@ -62,6 +83,13 @@
       </df>
       <df name="list">
         <in>stacks.c</in>
+      </df>
+      <df name="redis">
+        <df name="1">
+          <in>1-3_set</in>
+          <in>1-4_hash</in>
+          <in>1-5_zset</in>
+        </df>
       </df>
       <df name="Unix">
         <df name="apue">
@@ -1011,6 +1039,16 @@
             tool="3"
             flavor2="0">
       </item>
+      <item path="C-Programming/Functions-ProgramStructure/answer/4-1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Functions-ProgramStructure/extension/4-1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Input_Output/Overview"
             ex="false"
             tool="3"
@@ -1021,7 +1059,27 @@
             tool="0"
             flavor2="0">
       </item>
+      <item path="C-Programming/Pointers_Arrays/AddressArithmetic/note"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Pointers_Arrays/AddressArithmetic/strcpy.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/AddressArithmetic/strlen.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/CharacterPointers_Functions/strcmp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/CharacterPointers_Functions/strcpy.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -1029,6 +1087,11 @@
       <item path="C-Programming/Pointers_Arrays/Overview"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/PointerArrays_PointersToPointers/sort.c"
+            ex="false"
+            tool="0"
             flavor2="0">
       </item>
       <item path="C-Programming/Pointers_Arrays/Pointers and Arrays"
@@ -1066,7 +1129,17 @@
             tool="0"
             flavor2="0">
       </item>
+      <item path="C-Programming/Pointers_Arrays/Pointers_Address/note"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Pointers_Arrays/Pointers_Address/pointers_address.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Pointers_Arrays/Pointers_Arrays/main.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -1090,6 +1163,16 @@
       <item path="C-Programming/TutorialIntroduction/Overview"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/TutorialIntroduction/answer/1-1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/TutorialIntroduction/answer/1-2.c"
+            ex="false"
+            tool="0"
             flavor2="0">
       </item>
       <item path="C-Programming/Types_Operators_Expressions/Overview"
@@ -3237,6 +3320,12 @@
       <item path="list/stacks.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="myls.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="redis/1/1-3_set" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="redis/1/1-4_hash" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="redis/1/1-5_zset" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

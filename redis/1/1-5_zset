@@ -1,0 +1,23 @@
+代码清单1-5 ZADD、ZRANGE、ZRANGEBYSCORE和ZREM的使用示例
+
+redis 127.0.0.1:6379> zadd zset-key 728 member1     # 在尝试向有序集合添加元素的时候，
+(integer) 1                                         # 命令会返回新添加元素的数量。
+redis 127.0.0.1:6379> zadd zset-key 982 member0     #
+(integer) 1                                         #
+redis 127.0.0.1:6379> zadd zset-key 982 member0     #
+(integer) 0                                         #
+redis 127.0.0.1:6379> zrange zset-key 0 -1 withscores   # 获取有序集合包含的所有元素，
+1) "member1"                                            # 这些元素会按照分值进行排序，
+2) "728"                                                # Python客户端会将这些分值转换成浮点数。
+3) "member0"                                            #
+4) "982"                                                #
+redis 127.0.0.1:6379> zrangebyscore zset-key 0 800 withscores   # 也可以根据分值来获取有序集合的其中一部分元素。
+1) "member1"                                                    #
+2) "728"                                                        #
+redis 127.0.0.1:6379> zrem zset-key member1     # 在移除有序集合元素的时候，
+(integer) 1                                     # 命令会返回被移除元素的数量。
+redis 127.0.0.1:6379> zrem zset-key member1     #
+(integer) 0                                     #
+redis 127.0.0.1:6379> zrange zset-key 0 -1 withscores
+1) "member0"
+2) "982"

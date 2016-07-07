@@ -1,0 +1,21 @@
+代码清单1-4 HSET、HGET、HGETALL和HDEL的使用示例
+redis 127.0.0.1:6379> hset hash-key sub-key1 value1 # 在尝试添加键值对到散列的时候，
+(integer) 1                                         # 命令会返回一个值来表示给定的键是否已经存在于散列里面。
+redis 127.0.0.1:6379> hset hash-key sub-key2 value2 #
+(integer) 1                                         #
+redis 127.0.0.1:6379> hset hash-key sub-key1 value1 #
+(integer) 0                                         #
+redis 127.0.0.1:6379> hgetall hash-key              # 获取散列包含的所有键值对，
+1) "sub-key1"                                       # Python客户端会将这些键值对转换为Python字典。
+2) "value1"                                         #
+3) "sub-key2"                                       #
+4) "value2"                                         #
+redis 127.0.0.1:6379> hdel hash-key sub-key2        # 在删除键值对的时候，
+(integer) 1                                         # 命令会返回一个值来表示给定的键在移除之前是否存在于散列里面。
+redis 127.0.0.1:6379> hdel hash-key sub-key2        #
+(integer) 0                                         #
+redis 127.0.0.1:6379> hget hash-key sub-key1        # 从散列里面单独取出一个域。
+"value1"                                            #
+redis 127.0.0.1:6379> hgetall hash-key
+1) "sub-key1"
+2) "value1"

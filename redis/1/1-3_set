@@ -1,0 +1,24 @@
+redis 127.0.0.1:6379> sadd set-key item     # 在尝试将一个元素添加到集合的时候，
+(integer) 1                                 # 命令返回1表示这个元素被成功地添加到了集合里面，
+redis 127.0.0.1:6379> sadd set-key item2    # 而返回0则表示这个元素已经存在于集合中。
+(integer) 1                                 #
+redis 127.0.0.1:6379> sadd set-key item3    #
+(integer) 1                                 #
+redis 127.0.0.1:6379> sadd set-key item     #
+(integer) 0                                 #
+redis 127.0.0.1:6379> smembers set-key      # 获取集合包含的所有元素将得到一个由元素组成的序列，
+1) "item"                                   # Python客户端会将这个序列转换成Python集合。
+2) "item2"                                  #
+3) "item3"                                  #
+redis 127.0.0.1:6379> sismember set-key item4   # 检查一个元素是否存在于集合中，
+(integer) 0                                     # Python客户端会返回一个布尔值来表示检查结果。
+redis 127.0.0.1:6379> sismember set-key item    #
+(integer) 1                                     #
+redis 127.0.0.1:6379> srem set-key item2    # 在使用命令移除集合中的元素时，命令会返回被移除的元素数量。
+(integer) 1                                 #
+redis 127.0.0.1:6379> srem set-key item2    #
+(integer) 0                                 #
+redis 127.0.0.1:6379>  smembers set-key
+1) "item"
+2) "item3"
+redis 127.0.0.1:6379>

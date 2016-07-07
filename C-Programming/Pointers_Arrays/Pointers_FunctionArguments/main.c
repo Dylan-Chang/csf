@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   main.c
  * Author: changdi
@@ -13,12 +7,24 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+int swap(int a, int b);
 /*
  * 
  */
-int main(int argc, char** argv) {
-
-    return (EXIT_SUCCESS);
+int main() {
+    swap(10,99);
+    
 }
 
+void swap(int *px, int *py){
+    int temp;
+    
+    temp = *px;
+    printf("%d \n", temp);
+    *px = *py;
+    printf("%d \n", px);
+    *py = temp;
+    printf("%d \n", py);
+    
+    
+}
