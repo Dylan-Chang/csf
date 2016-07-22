@@ -1,0 +1,33 @@
+
+代码清单2-4 add_to_cart()函数
+
+def add_to_cart(conn, session, item, count):
+    if count <= 0:
+        # 从购物车里面移除指定的商品。
+        conn.hrem('cart:' + session, item)
+    else:
+        # 将指定的商品添加到购物车。
+        conn.hset('cart:' + session, item, count)
+
+代码清单2-5 clean_full_sessions()函数
+
+def clean_full_sessions(conn):
+    while not QUIT:
+        size = conn.zcard('recent:')
+        if size <= LIMIT:
+            time.sleep(1)
+            continue
+
+        end_index = min(size - LIMIT, 100)
+        sessions = conn.zrange('recent:', 0, end_index-1)
+
+        session_keys = []
+        for sess in sessions:
+            session_keys.append('viewed:' + sess)
+            session_keys.append('cart:' + sess)   # 新增加的这行代码用于删除旧会话对应用户的购物车。
+
+        conn.delete(*session_keys)
+        conn.hdel('login:', *sessions)
+        conn.zrem('recent:', *sessions)
+
+

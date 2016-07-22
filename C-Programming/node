@@ -1,0 +1,5 @@
+
+//sizeof
+char str[20]="0123456789";
+int a=strlen(str);//a=10;
+int b=sizeof(str);//而b=20;

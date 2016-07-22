@@ -1,0 +1,7 @@
+
+typedef 类型定义
+
+sizeof 计算任意对象的长度 (该类型在<stddef.h>中定义)
+
+key_word 操作 每行一个词auto auto if if EOF(Ctrl+D)结束符
+

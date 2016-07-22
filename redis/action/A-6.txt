@@ -1,0 +1,21 @@
+代码清单A-6 在Windows上为Python安装Redis客户端库
+
+C:\Users\josiah>c:\python27\python                                      # 以交互模式启动Python。
+Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit...
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from urllib import urlopen                                          # 从urllib模块里面载入urlopen工厂函数。
+>>> data = urlopen('http://peak.telecommunity.com/dist/ez_setup.py')    # 获取一个能够帮助你安装其他包的模块。
+>>> open('ez_setup.py', 'wb').write(data.read())                        # 将下载后的模块写入磁盘文件里。
+>>> exit()                                                              # 通过执行内置的exit()函数来退出Python解释器。
+
+C:\Users\josiah>c:\python27\python ez_setup.py                          # 运行ez_setup辅助模块。
+Downloading http://pypi.python.org/packages/2.7/s/setuptools/...        # ez_setup辅助模块会下载并安装setuptools，
+[trimmed]                                                               # 而setuptools可以方便地下载并安装Redis客户端库。
+Finished processing dependencies for setuptools==0.6c11                 #
+
+C:\Users\josiah>c:\python27\python -m easy_install redis                # 使用setuptools的easy_install模块来下载并安装Redis。
+Searching for redis                                                     #
+[trimmed]                                                               #
+Finished processing dependencies for redis                              #
+C:\Users\josiah>
+

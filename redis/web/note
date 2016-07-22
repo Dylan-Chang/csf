@@ -1,0 +1,25 @@
+
+Cookie type : 
+Signed cookie
+
+类型： 
+签名cookie
+
+Pros: 
+Everything needed to verify the cookie is in
+the cookie
+Additional information can be included
+and signed easily
+
+优点:
+验证cookie所需的一切信息都存储在cookie里面。
+cookie可以包含额外的信息（additional infomation）， 并且对这些信息进行签名也很容易
+
+Cons: Correctly handling signatures is hard
+It’s easy to forget to sign and/or verify
+data, allowing security vulnerabilities
+
+缺点
+正确地处理签名很难。很容易忘记对数据进行签名，
+或者忘记验证数据的签名， 从而造成安全漏洞
+

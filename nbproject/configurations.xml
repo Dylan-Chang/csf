@@ -13,10 +13,14 @@
           <df name="extension">
             <in>4-1.c</in>
           </df>
+          <df name="ExternalVariables">
+            <in>getch.c</in>
+          </df>
           <in>HeaderFiles</in>
         </df>
         <df name="Input_Output">
           <in>Overview</in>
+          <in>printf.c</in>
         </df>
         <df name="Pointers_Arrays">
           <df name="AddressArithmetic">
@@ -57,9 +61,20 @@
           <in>Pointers and Arrays</in>
         </df>
         <df name="Structures">
+          <df name="example">
+            <in>example_1.c</in>
+            <in>note</in>
+          </df>
+          <df name="guide">
+            <in>horse-1.c</in>
+            <in>horse.c</in>
+          </df>
           <in>Overview</in>
           <in>arrays.c</in>
           <in>basics.c</in>
+          <in>functions.c</in>
+          <in>note</in>
+          <in>typedef.c</in>
         </df>
         <df name="TutorialIntroduction">
           <df name="answer">
@@ -75,8 +90,29 @@
           <in>Overview</in>
         </df>
         <in>directory</in>
+        <in>node</in>
       </df>
-      <df name="ComputerScience-Foundations">
+      <df name="csapp">
+        <df name="bin">
+          <in>byte.php</in>
+          <in>commutative.php</in>
+          <in>datasize.php</in>
+          <in>h2d.php</in>
+          <in>words.php</in>
+        </df>
+        <df name="example">
+          <in>code.c</in>
+          <in>commutative.c</in>
+          <in>datasize.c</in>
+        </df>
+      </df>
+      <df name="Foundations">
+        <df name="list">
+          <in>list.c</in>
+        </df>
+        <df name="tree">
+          <in>tree-1.c</in>
+        </df>
         <in>list-data-model.c</in>
         <in>selectionsort.c</in>
         <in>tree-data-model.c</in>
@@ -89,6 +125,12 @@
           <in>1-3_set</in>
           <in>1-4_hash</in>
           <in>1-5_zset</in>
+        </df>
+        <df name="web">
+          <in>cart</in>
+          <in>note</in>
+          <in>page_cache</in>
+          <in>token</in>
         </df>
       </df>
       <df name="Unix">
@@ -997,6 +1039,7 @@
           </df>
         </df>
       </df>
+      <in>README</in>
       <in>myls.c</in>
     </df>
     <logicalFolder name="ExternalFiles"
@@ -1034,6 +1077,11 @@
       </makefileType>
       <item path="C-Programming/ControlFlow/Overview" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="C-Programming/Functions-ProgramStructure/ExternalVariables/getch.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Functions-ProgramStructure/HeaderFiles"
             ex="false"
             tool="3"
@@ -1052,6 +1100,11 @@
       <item path="C-Programming/Input_Output/Overview"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Input_Output/printf.c"
+            ex="false"
+            tool="0"
             flavor2="0">
       </item>
       <item path="C-Programming/Pointers_Arrays/AddressArithmetic/alloc.c"
@@ -1160,6 +1213,35 @@
       </item>
       <item path="C-Programming/Structures/basics.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="C-Programming/Structures/example/example_1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/example/note"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/functions.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/guide/horse-1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/guide/horse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/note" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/typedef.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="C-Programming/TutorialIntroduction/Overview"
             ex="false"
             tool="3"
@@ -1187,20 +1269,19 @@
       </item>
       <item path="C-Programming/directory" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="ComputerScience-Foundations/list-data-model.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
+      <item path="C-Programming/node" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="ComputerScience-Foundations/selectionsort.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
+      <item path="Foundations/list-data-model.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="ComputerScience-Foundations/tree-data-model.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
+      <item path="Foundations/list/list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Foundations/selectionsort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Foundations/tree-data-model.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Foundations/tree/tree-1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="README" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Unix/apue/apue.3e/advio/deadlock.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -3317,6 +3398,22 @@
             tool="0"
             flavor2="0">
       </item>
+      <item path="csapp/bin/byte.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="csapp/bin/commutative.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="csapp/bin/datasize.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="csapp/bin/h2d.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="csapp/bin/words.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="csapp/example/code.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="csapp/example/commutative.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="csapp/example/datasize.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="list/stacks.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="myls.c" ex="false" tool="0" flavor2="0">
@@ -3326,6 +3423,14 @@
       <item path="redis/1/1-4_hash" ex="false" tool="3" flavor2="0">
       </item>
       <item path="redis/1/1-5_zset" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="redis/web/cart" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="redis/web/note" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="redis/web/page_cache" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="redis/web/token" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
