@@ -10,15 +10,24 @@
           <df name="answer">
             <in>4-1.c</in>
           </df>
+          <df name="content">
+            <in>recursion.c</in>
+          </df>
           <df name="extension">
             <in>4-1.c</in>
           </df>
           <df name="ExternalVariables">
             <in>getch.c</in>
+            <in>getch1.c</in>
           </df>
           <in>HeaderFiles</in>
         </df>
         <df name="Input_Output">
+          <df name="content">
+            <in>cat1.c</in>
+            <in>minprintf.c</in>
+            <in>tolower.c</in>
+          </df>
           <in>Overview</in>
           <in>printf.c</in>
         </df>
@@ -61,8 +70,14 @@
           <in>Pointers and Arrays</in>
         </df>
         <df name="Structures">
+          <df name="content">
+            <in>typedef.c</in>
+          </df>
           <df name="example">
             <in>example_1.c</in>
+            <in>example_5.c</in>
+            <in>example_6.c</in>
+            <in>example_7.c</in>
             <in>note</in>
           </df>
           <df name="guide">
@@ -74,12 +89,21 @@
           <in>basics.c</in>
           <in>functions.c</in>
           <in>note</in>
-          <in>typedef.c</in>
         </df>
         <df name="TutorialIntroduction">
           <df name="answer">
             <in>1-1.c</in>
             <in>1-2.c</in>
+          </df>
+          <df name="content">
+            <in>power.c</in>
+            <in>tran_temp_2.c</in>
+            <in>transition_temperature.c</in>
+          </df>
+          <df name="exercise">
+            <in>1-2.c</in>
+            <in>1-3.c</in>
+            <in>1-4.c</in>
           </df>
           <in>Overview</in>
         </df>
@@ -105,16 +129,20 @@
           <in>commutative.c</in>
           <in>datasize.c</in>
         </df>
-      </df>
-      <df name="Foundations">
-        <df name="list">
-          <in>list.c</in>
+        <df name="Representing_Manipulating_Information">
+          <in>example_1.c</in>
         </df>
-        <df name="tree">
-          <in>tree-1.c</in>
+      </df>
+      <df name="fcsc">
+        <df name="abstraction">
+          <df name="note">
+            <in>sum.c</in>
+          </df>
+        </df>
+        <df name="Iteration-Induction-Recursion">
+          <in>selectionsort.c</in>
         </df>
         <in>list-data-model.c</in>
-        <in>selectionsort.c</in>
         <in>tree-data-model.c</in>
       </df>
       <df name="list">
@@ -1082,12 +1110,22 @@
             tool="0"
             flavor2="0">
       </item>
+      <item path="C-Programming/Functions-ProgramStructure/ExternalVariables/getch1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Functions-ProgramStructure/HeaderFiles"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
       <item path="C-Programming/Functions-ProgramStructure/answer/4-1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Functions-ProgramStructure/content/recursion.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -1100,6 +1138,21 @@
       <item path="C-Programming/Input_Output/Overview"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Input_Output/content/cat1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Input_Output/content/minprintf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Input_Output/content/tolower.c"
+            ex="false"
+            tool="0"
             flavor2="0">
       </item>
       <item path="C-Programming/Input_Output/printf.c"
@@ -1213,7 +1266,27 @@
       </item>
       <item path="C-Programming/Structures/basics.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="C-Programming/Structures/content/typedef.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="C-Programming/Structures/example/example_1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/example/example_5.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/example/example_6.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/Structures/example/example_7.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -1240,8 +1313,6 @@
       </item>
       <item path="C-Programming/Structures/note" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="C-Programming/Structures/typedef.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="C-Programming/TutorialIntroduction/Overview"
             ex="false"
             tool="3"
@@ -1253,6 +1324,36 @@
             flavor2="0">
       </item>
       <item path="C-Programming/TutorialIntroduction/answer/1-2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/TutorialIntroduction/content/power.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/TutorialIntroduction/content/tran_temp_2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/TutorialIntroduction/content/transition_temperature.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/TutorialIntroduction/exercise/1-2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/TutorialIntroduction/exercise/1-3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="C-Programming/TutorialIntroduction/exercise/1-4.c"
             ex="false"
             tool="0"
             flavor2="0">
@@ -1270,16 +1371,6 @@
       <item path="C-Programming/directory" ex="false" tool="3" flavor2="0">
       </item>
       <item path="C-Programming/node" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Foundations/list-data-model.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Foundations/list/list.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Foundations/selectionsort.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Foundations/tree-data-model.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Foundations/tree/tree-1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="README" ex="false" tool="3" flavor2="0">
       </item>
@@ -3398,6 +3489,11 @@
             tool="0"
             flavor2="0">
       </item>
+      <item path="csapp/Representing_Manipulating_Information/example_1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="csapp/bin/byte.php" ex="false" tool="3" flavor2="0">
       </item>
       <item path="csapp/bin/commutative.php" ex="false" tool="3" flavor2="0">
@@ -3413,6 +3509,17 @@
       <item path="csapp/example/commutative.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="csapp/example/datasize.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="fcsc/Iteration-Induction-Recursion/selectionsort.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="fcsc/abstraction/note/sum.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="fcsc/list-data-model.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="fcsc/tree-data-model.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="list/stacks.c" ex="false" tool="0" flavor2="0">
       </item>

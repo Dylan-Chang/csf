@@ -15,11 +15,15 @@
           </df>
           <df name="BlockStructure">
           </df>
+          <df name="content">
+            <in>recursion.c</in>
+          </df>
           <df name="extension">
             <in>4-1.c</in>
           </df>
           <df name="ExternalVariables">
             <in>getch.c</in>
+            <in>getch1.c</in>
             <in>reverse_polish_calculator.c</in>
           </df>
           <df name="Functions_Returning_Non-integers">
@@ -31,8 +35,6 @@
           </df>
           <df name="Preprocessor">
           </df>
-          <df name="Recursion">
-          </df>
           <df name="RegisterVariables">
           </df>
           <df name="ScopeRules">
@@ -43,6 +45,11 @@
           <in>reverse_polish_calc.c</in>
         </df>
         <df name="Input_Output">
+          <df name="content">
+            <in>cat1.c</in>
+            <in>minprintf.c</in>
+            <in>tolower.c</in>
+          </df>
           <in>Overview</in>
           <in>printf.c</in>
         </df>
@@ -103,9 +110,7 @@
             <in>strcat.c</in>
             <in>strlen-v1.c</in>
           </df>
-          <df name="2-Types_Operators_Expressions ">
-          </df>
-          <df name="3-Control Flow">
+          <df name="3-ControlFlow">
             <in>atoi-v2.c</in>
             <in>binsearch.c</in>
             <in>itoa.c</in>
@@ -113,7 +118,18 @@
             <in>statistics.c</in>
             <in>trim.c</in>
           </df>
-          <df name="4-Functions_ProgramStructure ">
+          <df name="4-Functions_ProgramStructure">
+            <in>pattern.c</in>
+            <in>printd.c</in>
+            <in>qsort.c</in>
+            <in>reverse_polish_calc.c</in>
+            <in>simple_calc.c</in>
+          </df>
+          <df name="6_Structures">
+            <in>hash.c</in>
+            <in>statistics_key_word-version1.c</in>
+            <in>statistics_key_word-version2.c</in>
+            <in>statistics_key_word-version3.c</in>
           </df>
           <df name="第5章 指针与数组">
             <in>alloc.c</in>
@@ -127,12 +143,6 @@
             <in>print_text_line-version1.c</in>
             <in>print_text_line-version2.c</in>
             <in>undcl.c</in>
-          </df>
-          <df name="第6章 结构">
-            <in>hash.c</in>
-            <in>statistics_key_word-version1.c</in>
-            <in>statistics_key_word-version2.c</in>
-            <in>statistics_key_word-version3.c</in>
           </df>
           <df name="第7章 输入与输出">
             <in>cat-version1.c</in>
@@ -152,9 +162,15 @@
           </df>
         </df>
         <df name="Structures">
+          <df name="content">
+            <in>typedef.c</in>
+          </df>
           <df name="example">
             <in>example_1.c</in>
             <in>example_2.c</in>
+            <in>example_5.c</in>
+            <in>example_6.c</in>
+            <in>example_7.c</in>
             <in>note</in>
           </df>
           <df name="guide">
@@ -167,12 +183,22 @@
           <in>functions.c</in>
           <in>note</in>
           <in>statistics_key_word-version1.c</in>
-          <in>typedef.c</in>
+          <in>statistics_key_word-version3.c</in>
         </df>
         <df name="TutorialIntroduction">
           <df name="answer">
             <in>1-1.c</in>
             <in>1-2.c</in>
+          </df>
+          <df name="content">
+            <in>power.c</in>
+            <in>tran_temp_2.c</in>
+            <in>transition_temperature.c</in>
+          </df>
+          <df name="exercise">
+            <in>1-2.c</in>
+            <in>1-3.c</in>
+            <in>1-4.c</in>
           </df>
           <in>Overview</in>
         </df>
@@ -321,8 +347,22 @@
           <in>show-bytes.c</in>
           <in>test_show_bytes.c</in>
         </df>
+        <df name="Representing_Manipulating_Information">
+          <in>example_1.c</in>
+        </df>
       </df>
-      <df name="Foundations">
+      <df name="fcsc">
+        <df name="abstraction">
+          <df name="note">
+            <in>sum.c</in>
+          </df>
+          <in>example_1.c</in>
+          <in>example_4.c</in>
+          <in>example_4_1.c</in>
+        </df>
+        <df name="Iteration-Induction-Recursion">
+          <in>selectionsort.c</in>
+        </df>
         <df name="list">
           <in>list.c</in>
           <in>stacks.c</in>
@@ -331,7 +371,6 @@
           <in>tree-1.c</in>
         </df>
         <in>list-data-model.c</in>
-        <in>selectionsort.c</in>
         <in>tree-data-model.c</in>
       </df>
       <df name="list">
