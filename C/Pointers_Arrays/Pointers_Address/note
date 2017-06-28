@@ -1,0 +1,23 @@
+p = &c
+assigns the address of c to the variable p, and p is said to ``point to'' c. 
+将把c的地址赋值给变量p,我们称p为 "指向" c的指针。
+
+The & operator only applies to objects in memory: variables and array elements. It cannot be applied to
+expressions, constants, or register variables. 
+
+
+The unary operator & gives the address of an object, so the statement 
+一元运算符&可用于取一个对象的地址。
+(一元运算符 只对一个表达式执行操作，该表达式可以是数值数据类型类别中的任何一种数据类型。)
+
+The unary operator * is the indirection or dereferencing operator; 
+一元运算符*是间接寻址或间接引用运算符。
+
+
+warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’
+
+
+* 和 & 优先级比算术运算符高
+
+
+

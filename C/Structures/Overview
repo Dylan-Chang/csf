@@ -1,0 +1,23 @@
+A structure is a collection of one or more variables, possibly of different types, grouped
+together under a single name for convenient handling. (Structures are called ``records'' in
+some languages, notably Pascal.) Structures help to organize complicated data, particularly in
+large programs, because they permit a group of related variables to be treated as a unit instead
+of as separate entities.
+One traditional example of a structure is the payroll record: an employee is described by a set
+of attributes such as name, address, social security number, salary, etc. Some of these in turn
+could be structures: a name has several components, as does an address and even a salary.
+Another example, more typical for C, comes from graphics: a point is a pair of coordinate, a
+rectangle is a pair of points, and so on.
+The main change made by the ANSI standard is to define structure assignment - structures
+may be copied and assigned to, passed to functions, and returned by functions. This has been
+supported by most compilers for many years, but the properties are now precisely defined.
+Automatic structures and arrays may now also be initialized. 
+
+结构是一个或多个变量的集合,这些变量可能为不同的类型，为了处理的方便而将这些变量组织在一个名字下。
+由于结构将一组变量看作一个单元而不是各自独立的实体,因此结构有助于组织复杂的数据，特别是在大型的程序中。
+
+C provides a compile-time unary operator called sizeof that can be used to compute the size
+of any object. The expressions 
+
+sizeof 计算任一对象的长度。
+
